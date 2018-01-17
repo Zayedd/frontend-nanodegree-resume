@@ -66,7 +66,7 @@ var education = {
             $(".education-entry:last").append(HTMLschoolLocation.replace("%data%", element.location));
             element.majors.forEach(function(e){
                 $(".education-entry:last").append(HTMLschoolMajor.replace("%data%", e));
-            })
+            });
         });
         //Show Online Courses
         $("#education").append(HTMLonlineClasses);
